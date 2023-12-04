@@ -1,0 +1,170 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "RN.png",
+      "duration": "8 weeks",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+
+      "syllabus": [
+      {
+      "week": 1,
+      "topic": "Introduction to React Native",
+      "content": "Overview of React Native, setting up your development environment."
+      },
+
+      {
+      "week": 2,
+      "topic": "Building Your First App",
+      "content": "Creating a simple mobile app using React Native components."
+      }
+    ]
+    
+    },
+    {
+      "id": 2,
+      "name": "Advanced React Development",
+      "instructor": "Jane Smith",
+      "description": "Dive deeper into React concepts and advanced development techniques.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "your.image.here",
+      "duration": "10 weeks",
+      "location": "Online",
+      "prerequisites": ["Intermediate JavaScript knowledge", "Proficiency in React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Advanced React Components",
+          "content": "Exploring higher-order components and render props."
+        },
+        {
+          "week": 2,
+          "topic": "State Management with Redux",
+          "content": "Implementing Redux for global state management."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "JavaScript Fundamentals for Beginners",
+      "instructor": "Alice Johnson",
+      "description": "Master the core concepts of JavaScript programming language.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "your.image.here",
+      "duration": "6 weeks",
+      "location": "Online",
+      "prerequisites": ["No prerequisites"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Basic Syntax and Data Types",
+          "content": "Understanding variables, data types, and operators."
+        },
+        {
+          "week": 2,
+          "topic": "Functions and Scope",
+          "content": "Working with functions, scope, and closures."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Python for Data Science",
+      "instructor": "David Brown",
+      "description": "Learn Python programming for data analysis and visualization.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "your.image.here",
+      "duration": "12 weeks",
+      "location": "Online",
+      "prerequisites": ["Basic programming knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Python Basics",
+          "content": "Introduction to Python syntax and data structures."
+        },
+        {
+          "week": 2,
+          "topic": "Data Manipulation with Pandas",
+          "content": "Working with Pandas library for data manipulation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Web Development Bootcamp",
+      "instructor": "Michael Adams",
+      "description": "Comprehensive course covering HTML, CSS, and JavaScript for web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "your.image.here",
+      "duration": "16 weeks",
+      "location": "Online",
+      "prerequisites": ["No prerequisites"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML Fundamentals",
+          "content": "Introduction to HTML tags and structure."
+        },
+        {
+          "week": 2,
+          "topic": "CSS Styling",
+          "content": "Styling web pages using CSS."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Machine Learning Basics",
+      "instructor": "Sophia Garcia",
+      "description": "An introductory course to machine learning algorithms and concepts.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "your.image.here",
+      "duration": "8 weeks",
+      "location": "Online",
+      "prerequisites": ["Basic Python knowledge", "Statistics basics"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to ML",
+          "content": "Understanding machine learning and its types."
+        },
+        {
+          "week": 2,
+          "topic": "Linear Regression",
+          "content": "Exploring linear regression in machine learning."
+        }
+      ]
+    }
+   
+  ],
+  "students":[
+    {
+      "id": 101,
+      "name": "Alice Johnson",
+      "password": "abc",
+      "email": "alice@example.com"
+      },
+      {
+      "id": 102,
+      "name": "Bob Smith",
+      "password": "Abc@123",
+      "email": "bob@example.com"
+      }
+      
+  ],
+
+  "enrollments": [
+    {
+      "studentId": 101,
+      "courseIds": [1,2, 3,4, 5, 6] 
+    }
+   
+    
+  ]
+}
